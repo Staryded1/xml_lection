@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="126dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher_round">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HELLO"
+            android:textSize="40sp">
+        </TextView>
+
+        <ProgressBar
+            android:layout_width="114dp"
+            android:layout_height="match_parent">
+        </ProgressBar>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:text="11:30"
+            android:textSize="40sp"></TextView>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher_round">
+        </ImageView>
+        <Switch
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/purple_200">
+        </Switch>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/ic_launcher_background" />
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="121dp"
+            android:layout_height="match_parent">
+        </SeekBar>
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </SearchView>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PR-20.101">
+        </TextView>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars">
+        </ImageView>
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Switch">
+        </Switch>
+    </TableRow>
+</TableLayout>
